@@ -1,0 +1,222 @@
+[
+  {
+    "id": 0,
+    "url": "smart-phone.jpg",
+    "productName": "Smartphone X12",
+    "image": "📱",
+    "brand": "TechCorp",
+    "specs": "128GB Storage, 6GB RAM",
+    "price": "699.99",
+    "warranty": "2 years",
+    "description": "The Smartphone X12 features a stunning 6.5-inch OLED display, a powerful octa-core processor, and a long-lasting battery. Capture beautiful photos with its 48MP triple camera setup and enjoy a seamless experience with the latest OS."
+  },
+  {
+    "id": 1,
+    "url": "laptop.jpg",
+    "productName": "Laptop Pro 15",
+    "image": "💻",
+    "brand": "ComputeX",
+    "specs": "16GB RAM, 512GB SSD",
+    "price": "1199.99",
+    "warranty": "1 year",
+    "description": "The Laptop Pro 15 is designed for professionals who need power and portability. It comes with a 15.6-inch Full HD display, Intel i7 processor, and advanced cooling system to handle intensive tasks with ease."
+  },
+  {
+    "id": 2,
+    "url": "earbuds.jpg",
+    "productName": "Wireless Earbuds Z",
+    "image": "🎧",
+    "brand": "SoundMax",
+    "specs": "Bluetooth 5.0, 24-hour Battery Life",
+    "price": "129.99",
+    "warranty": "1 year",
+    "description": "Experience true wireless freedom with the Wireless Earbuds Z. Featuring superior sound quality, noise cancellation, and a compact charging case, these earbuds are perfect for music lovers on the go."
+  },
+  {
+    "id": 3,
+    "url": "smart-watch.jpg",
+    "productName": "Smartwatch 4",
+    "image": "⌚",
+    "brand": "FitTime",
+    "specs": "Heart Rate Monitor, GPS",
+    "price": "249.99",
+    "warranty": "1 year",
+    "description": "Stay connected and track your fitness with the Smartwatch 4. It offers a sleek design, comprehensive health monitoring, and customizable watch faces, making it a versatile companion for any lifestyle."
+  },
+  {
+    "id": 4,
+    "url": "tv.jpg",
+    "productName": "4K Ultra HD TV",
+    "image": "📺",
+    "brand": "ViewMaster",
+    "specs": "55-inch, HDR",
+    "price": "599.99",
+    "warranty": "2 years",
+    "description": "Enjoy breathtaking visuals with the 4K Ultra HD TV. Its 55-inch screen and HDR technology deliver vibrant colors and sharp details, providing an immersive viewing experience for movies and games."
+  },
+  {
+    "id": 5,
+    "url": "gaming-console.jpg",
+    "productName": "Gaming Console X",
+    "image": "🎮",
+    "brand": "GameHub",
+    "specs": "1TB Storage, 4K Gaming",
+    "price": "499.99",
+    "warranty": "1 year",
+    "description": "The Gaming Console X offers next-gen performance with 4K gaming, ultra-fast load times, and an extensive library of games. Experience gaming like never before with its powerful hardware and innovative features."
+  },
+  {
+    "id": 6,
+    "url": "tablet.jpg",
+    "productName": "Tablet S7",
+    "image": "📱",
+    "brand": "TabCo",
+    "specs": "10.5-inch, 128GB Storage",
+    "price": "399.99",
+    "warranty": "1 year",
+    "description": "The Tablet S7 is perfect for both work and play. Its 10.5-inch display, powerful processor, and ample storage make it ideal for streaming, browsing, and productivity on the go."
+  },
+  {
+    "id": 7,
+    "url": "speaker.jpg",
+    "productName": "Bluetooth Speaker B1",
+    "image": "🔊",
+    "brand": "SoundWave",
+    "specs": "20W Output, 12-hour Battery Life",
+    "price": "79.99",
+    "warranty": "1 year",
+    "description": "The Bluetooth Speaker B1 delivers rich, powerful sound in a compact design. With 20W output, 12-hour battery life, and waterproof construction, it's perfect for any occasion, indoors or outdoors."
+  },
+  {
+    "id": 8,
+    "url": "camera.jpg",
+    "productName": "Digital Camera C300",
+    "image": "📷",
+    "brand": "PhotoPro",
+    "specs": "24MP, 4K Video",
+    "price": "499.99",
+    "warranty": "1 year",
+    "description": "Capture stunning photos and videos with the Digital Camera C300. Featuring a 24MP sensor, 4K video recording, and a variety of shooting modes, it's perfect for photography enthusiasts and professionals."
+  },
+  {
+    "id": 9,
+    "url": "home-assitant.jpg",
+    "productName": "Smart Home Assistant",
+    "image": "🏠",
+    "brand": "HomeTech",
+    "specs": "Voice Control, Smart Hub",
+    "price": "99.99",
+    "warranty": "1 year",
+    "description": "The Smart Home Assistant makes it easy to control your smart home devices with just your voice. It acts as a smart hub, connecting and managing all your devices, and provides helpful information and entertainment."
+  },
+  {
+    "id": 10,
+    "url": "fitness-tracker.jpg",
+    "productName": "Fitness Tracker F2",
+    "image": "⌚",
+    "brand": "FitLife",
+    "specs": "Heart Rate Monitor, Sleep Tracking",
+    "price": "59.99",
+    "warranty": "1 year",
+    "description": "Track your health and fitness with the Fitness Tracker F2. It monitors heart rate, sleep patterns, and activity levels, helping you stay on top of your fitness goals with detailed insights and notifications."
+  },
+  {
+    "id": 11,
+    "url": "skooter.jpg",
+    "productName": "Electric Scooter E1",
+    "image": "🛴",
+    "brand": "MoveFast",
+    "specs": "25km Range, 20km/h Max Speed",
+    "price": "299.99",
+    "warranty": "1 year",
+    "description": "The Electric Scooter E1 offers a fun and efficient way to get around. With a range of 25km and a top speed of 20km/h, it's perfect for commuting or leisurely rides, and folds easily for convenient storage."
+  },
+  {
+    "id": 12,
+    "url": "headphone.jpg",
+    "productName": "Noise Cancelling Headphones",
+    "image": "🎧",
+    "brand": "QuietSound",
+    "specs": "Active Noise Cancelling, 30-hour Battery Life",
+    "price": "199.99",
+    "warranty": "1 year",
+    "description": "Enjoy immersive sound and peace with the Noise Cancelling Headphones. Featuring active noise cancellation, 30-hour battery life, and superior audio quality, they are perfect for music lovers and frequent travelers."
+  },
+  {
+    "id": 13,
+    "url": "charger.jpg",
+    "productName": "Portable Charger 20K",
+    "image": "🔋",
+    "brand": "ChargeUp",
+    "specs": "20000mAh, Dual USB Ports",
+    "price": "49.99",
+    "warranty": "1 year",
+    "description": "Keep your devices powered on the go with the Portable Charger 20K. With 20000mAh capacity and dual USB ports, it can charge multiple devices simultaneously and ensures you stay connected wherever you are."
+  },
+  {
+    "id": 14,
+    "url": "thermostat.jpg",
+    "productName": "Smart Thermostat",
+    "image": "🌡️",
+    "brand": "ClimateControl",
+    "specs": "Wi-Fi, Energy Saving",
+    "price": "129.99",
+    "warranty": "2 years",
+    "description": "The Smart Thermostat helps you save energy and stay comfortable. It connects to your Wi-Fi network, allowing you to control your home’s temperature from your smartphone, and learns your preferences to optimize heating and cooling."
+  },
+  {
+    "id": 15,
+    "url": "robot-cleaner.jpg",
+    "productName": "Robot Vacuum Cleaner",
+    "image": "🤖",
+    "brand": "CleanBot",
+    "specs": "Auto-Scheduling, Self-Charging",
+    "price": "249.99",
+    "warranty": "1 year",
+    "description": "Keep your floors spotless with the Robot Vacuum Cleaner. It features auto-scheduling, powerful suction, and self-charging capabilities, making it a convenient and efficient cleaning solution for your home."
+  },
+  {
+    "id": 16,
+    "url": "smart-light.jpg",
+    "productName": "Smart Light Bulb",
+    "image": "💡",
+    "brand": "BrightHome",
+    "specs": "Wi-Fi, Color Changing",
+    "price": "19.99",
+    "warranty": "1 year",
+    "description": "Illuminate your home with the Smart Light Bulb. It connects to your Wi-Fi network, allowing you to control it from your smartphone, and offers a wide range of colors and brightness levels to suit any mood or occasion."
+  },
+  {
+    "id": 17,
+    "url": "drone.jpg",
+    "productName": "Drone X500",
+    "image": "🛸",
+    "brand": "FlyHigh",
+    "specs": "4K Camera, 30-minute Flight Time",
+    "price": "599.99",
+    "warranty": "1 year",
+    "description": "Capture stunning aerial footage with the Drone X500. It features a 4K camera, 30-minute flight time, and advanced flight modes, making it perfect for both beginners and experienced drone pilots."
+  },
+  {
+    "id": 18,
+    "url": "door-bell.jpg",
+    "productName": "Smart Doorbell",
+    "image": "🚪",
+    "brand": "SafeHome",
+    "specs": "HD Video, Two-Way Audio",
+    "price": "149.99",
+    "warranty": "1 year",
+    "description": "Enhance your home security with the Smart Doorbell. It provides HD video and two-way audio, allowing you to see and speak to visitors from your smartphone, and features motion detection and night vision for round-the-clock protection."
+  },
+  {
+    "id": 19,
+    "url": "keyboard.jpg",
+    "productName": "Portable Bluetooth Keyboard",
+    "image": "⌨️",
+    "brand": "TypeEase",
+    "specs": "Rechargeable, Compact",
+    "price": "39.99",
+    "warranty": "1 year",
+    "description": "The Portable Bluetooth Keyboard is perfect for typing on the go. It’s rechargeable, compact, and compatible with multiple devices, providing a convenient solution for mobile productivity."
+  }
+]
