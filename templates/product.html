@@ -4,9 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{%PRODUCT-NAME%}</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Poppins';
+      }
+      .container {
+        background-color: #f5f5f5f5;
+        width: 100%;
+        height: fit-content;
+        min-height: 100vh;
+        padding: 5rem 3rem;
+        display: grid;
+        justify-content: center;
+      }
+      .content {
+        width: 500px;
+        height: fit-content;
+        background-color: #044d8b;
+        border-radius: 0.5rem;
+        padding-bottom: 2rem;
+        position: relative;
+      }
+      .content a {
+        background-color: #044d8b;
+        color: white;
+        position: absolute;
+        left: -7rem;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        font-size: 3rem;
+      }
+      .content h1 {
+        display: grid;
+        place-items: center;
+        margin: 2rem 0;
+        color: #f5f5f5f5;
+      }
+      .content img {
+        width: 500px;
+      }
+      .content p,
+      .content h4 {
+        padding: 1rem;
+      }
+      .content p,
+      .content .brand {
+        color: #f5f5f5f5;
+      }
+      .warranty,
+      .price {
+        background-color: #f5f5f5f5;
+        color: #044d8b;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">{%PRODUCT%}</div>
+    <!-- <div class="container">{%PRODUCT%}</div> -->
+    <div class="container">
+      <div class="content">
+        <div class="home"><a href="/overview">&#8592;</a></div>
+        <h1>{%PRODUCT-NAME%}</h1>
+        <img src="{%PRODUCT-IMAGE%}" alt="" />
+        <h4 class="brand">Brand: {%PRODUCT-BRAND%}</h4>
+        <h4 class="warranty">Warranty: {%PRODUCT-WARRANTY%}</h4>
+        <p>{%PRODUCT-DESCRIPTION%}</p>
+        <h4 class="price">{%PRODUCT-PRICE%}$</h4>
+      </div>
+    </div>
   </body>
 </html>

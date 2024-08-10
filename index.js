@@ -27,6 +27,16 @@ const formCard = function (temp, product) {
 
   return card;
 };
+const productCard = function (temp, product) {
+  let card = temp.replace(/{%PRODUCT-NAME%}/g, product.productName);
+  card = card.replace(/{%PRODUCT-IMAGE%}/g, product.url);
+  card = card.replace(/{%PRODUCT-BRAND%}/g, product.brand);
+  card = card.replace(/{%PRODUCT-PRICE%}/g, product.price);
+  card = card.replace(/{%PRODUCT-WARRANTY%}/g, product.warranty);
+  card = card.replace(/{%PRODUCT-DESCRIPTION%}/g, product.description);
+
+  return card;
+};
 // using http request
 // const server = http.createServer((req, res) => {
 //   const routing = req.url;
@@ -58,10 +68,7 @@ app.get('/overview', (req, res) => {
 });
 app.get('/product', (req, res) => {
   const { pathname, query } = url.parse(req.originalUrl, true);
-  let output = productTemp.replace(
-    /{%PRODUCT%}/g,
-    formCard(cardOverviewTemp, data[+query.id])
-  );
+  let output = productCard(productTemp, data[query.id]);
   res.status(200).send(output);
 });
 
